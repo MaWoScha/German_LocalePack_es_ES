@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackEs>
+            <version>0.1.0</version>
+            <locale>es_ES</locale>
+            <title>Spanish (Spain) Language Pack</title>
+            <link_git>https://github.com/MaWoScha/German_LocalePack_de_ES</link_git>
+            <link_mage>http://www.magentocommerce.com/magento-connect/magento-community-modules-spanish-spain-language-pack.html</link_mage>
+        </German_LocalePackEs>
+    </modules>
+
+    <global>
+        <models>
+            <localepackes>
+                <class>German_LocalePackEs_Model</class>
+            </localepackes>
+        </models>
+        <helpers>
+            <localepackes>
+                <class>German_LocalePackEs_Helper</class>
+            </localepackes>
+        </helpers>
+        <blocks>
+            <localepackes>
+                <class>German_LocalePackEs_Block</class>
+            </localepackes>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackes>
+                        <class>localepackes/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackes>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+	
+    <default>
+        <localepackes>
+             <notification>
+                <url>https://github.com/MaWoScha/German_LocalePack_es_ES</url>
+            </notification>
+        </localepackes>
+        <magesetup>
+            <default_country>ES</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <localepackes>
+                    <files>
+                    	<default>localepackes.xml</default>
+                    </files>
+                </localepackes>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <German_LocalePackEs>
+                    <files>
+                        <default>German_LocaleEs.csv</default>
+                    </files>
+                </German_LocalePackEs>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackes">
+                                            <title>Language Packs</title>
+                                    		<children> -->
+                                        		<localepackes translate="title" module="localepackes">
+                                            		<title>Spanish (Spain) Language Pack</title>
+                                        		</localepackes> <!--
+                                    		</children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @version   0.1.0
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+	<tabs>
+		<localepacks translate="label" module="localepackes">
+			<label>Locale Packs</label>
+			<sort_order>150</sort_order>
+		</localepacks>
+	</tabs>
+	<sections>
+		<localepackes module="localepackes">
+			<label>Locale es_ES</label>
+			<tab>localepacks</tab>
+			<sort_order>40</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>0</show_in_website>
+			<show_in_store>0</show_in_store>
+			<groups>
+				<maininfo translate="label" module="localepackes">
+					<label>Spanish language package es_ES - Community Edition (CE)</label>
+					<frontend_type>text</frontend_type>
+                    <frontend_model>localepackes/system_config_form_fieldset_instructions</frontend_model>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>0</show_in_website>
+					<show_in_store>0</show_in_store>
+				</maininfo>
+
+				<tipps_translation translate="label" module="localepackes">
+					<label>Using your own translations</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>50</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>0</show_in_website>
+					<show_in_store>0</show_in_store>
+					<comment><![CDATA[More Infos here soon!]]></comment>
+				</tipps_translation>
+
+				<additional_extensions translate="label" module="localepackes">
+					<label>Recommended extensions</label>
+					<frontend_type>text</frontend_type>
+                    <frontend_model>localepackes/system_config_form_fieldset_extensions</frontend_model>
+					<sort_order>60</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>0</show_in_website>
+					<show_in_store>0</show_in_store>
+				</additional_extensions>
+			</groups>
+		</localepackes>
+	</sections>
+</config>
