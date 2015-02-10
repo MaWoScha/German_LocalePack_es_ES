@@ -4,7 +4,7 @@
  * @package   German_LocalePack
  * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
  * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
- * @version   0.1.0
+ * @version   0.1.1
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class German_LocalePackEs_Block_System_Config_Form_Fieldset_Instructions
@@ -12,21 +12,22 @@ class German_LocalePackEs_Block_System_Config_Form_Fieldset_Instructions
 {
     public function render(Varien_Data_Form_Element_Abstract $element)
     {
+    	$nodepath = "modules/German_LocalePackEs";
         $helper = Mage::helper("localepackes");
 
         $html  = $this->_getHeaderHtml($element);
         $html .= "<p style='font-weight:bold;'>";
         $html .= $helper->__("The <span style='color:red'>%s</span> language pack in version <span style='color:red'>%s</span> has been successfully installed.",
-        		(string)Mage::app()->getConfig()->getNode('modules/German_LocalePackEs/locale'),
-        		(string)Mage::app()->getConfig()->getNode('modules/German_LocalePackEs/version') );
+        		(string)Mage::app()->getConfig()->getNode($nodepath.'/locale'),
+        		(string)Mage::app()->getConfig()->getNode($nodepath.'/version') );
         $html .= "</p>";
         $html .= "<p style='margin-top:20pt;'>";
 		$html .= $helper->__("On the <a href='%s'>Magento Connect page of the Spanish language pack</a>, you can find more information on the latest versions.",
-				(string)Mage::app()->getConfig()->getNode('modules/German_LocalePackEs/link_mage') );
+				(string)Mage::app()->getConfig()->getNode($nodepath.'/link_mage') );
         $html .= "</p>";
         $html .= "<p style='margin-top:20pt;'>";
 		$html .= $helper->__("For those interested there is a <a href='%s'>GitHub repository</a>. It is provided for the following purposes:",
-				(string)Mage::app()->getConfig()->getNode('modules/German_LocalePackEs/link_git') );
+				(string)Mage::app()->getConfig()->getNode($nodepath.'/link_git') );
         $html .= "</p>";
 
 		$html .= "<ul style='list-style-position: outside; list-style-type: disc; margin-left:18px;'>";
@@ -45,7 +46,7 @@ class German_LocalePackEs_Block_System_Config_Form_Fieldset_Instructions
 		$html .= $helper->__("In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!");
         $html .= "</p>";
         $html .= "<p style='text-align:right;'>";
-		$html .= $helper->__("powered by <a>Me</a>");
+		$html .= $helper->__("powered by")." <a href='http://blog.siempro.co/' target='_blank'>MaWoScha</a>";
         $html .= "</p>";
         $html .= $this->_getFooterHtml($element);
 

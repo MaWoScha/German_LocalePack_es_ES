@@ -4,7 +4,7 @@
  * @package   German_LocalePack
  * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
  * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
- * @version   0.1.0
+ * @version   0.1.2
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class German_LocalePackEs_Block_System_Config_Form_Fieldset_Extensions
@@ -15,9 +15,10 @@ class German_LocalePackEs_Block_System_Config_Form_Fieldset_Extensions
         $helper = Mage::helper("localepackes");
 
         $html  = $this->_getHeaderHtml($element);
-		$html .= "<li>".$helper->__("The installed language pack only provides translations of in Magento existing texts. If you want to prepare your Magento store on the legal requirements in Spain or expand common payment methods, we recommend to install the following additional extensions.")."</p>";
+		$html .= "<p>".$helper->__("The installed language pack only provides translations of in Magento existing texts. If you want to prepare your Magento store on the legal requirements in %s or expand common payment methods, we recommend to install the following additional extensions.",
+				$helper->__("Spain"))."</p>";
 		$html .= "<hr style='margin-top:15px; margin-bottom:5px;' />";
-		$html .= "<h3 style='margin-top:20px; margin-bottom:10xp;'>".$helper->__("Specific market adjustment for Spanish and European stores")."</h3>";
+		$html .= "<h3 style='margin-top:20px; margin-bottom:10xp;'>".$helper->__("Specific market adjustment for")." ".$helper->__("Spanish and European stores")."</h3>";
 		$html .= "<dl>";
 		$html .= "<dt>".$helper->__("Currently not available")."</dt>";
 		$html .= "</dl>";
