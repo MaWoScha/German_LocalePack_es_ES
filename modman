@@ -1,6 +1,7 @@
 #BackendModule
 app/code/community/German/LocalePackEs                        app/code/community/German/LocalePackEs
 app/etc/modules/German_LocalePackEs.xml                       app/etc/modules/German_LocalePackEs.xml
+app/design/adminhtml/default/default/layout/localepackes.xml  app/design/adminhtml/default/default/layout/localepackes.xml
 
 
 #Downloader
@@ -9,9 +10,25 @@ downloader/template_es_1.7  downloader/template_es_1.7
 
 
 #Misc
-
+js/german/localepackes/setup.js     js/german/localepackes/setup.js
 
 #TinyMCE
+js/tiny_mce/langs/es.js                                 js/tiny_mce/langs/es.js
+js/tiny_mce/plugins/advhr/langs/es_dlg.js               js/tiny_mce/plugins/advhr/langs/es_dlg.js
+js/tiny_mce/plugins/advimage/langs/es_dlg.js            js/tiny_mce/plugins/advimage/langs/es_dlg.js
+js/tiny_mce/plugins/advlink/langs/es_dlg.js             js/tiny_mce/plugins/advlink/langs/es_dlg.js
+js/tiny_mce/plugins/emotions/langs/es_dlg.js            js/tiny_mce/plugins/emotions/langs/es_dlg.js
+js/tiny_mce/plugins/fullpage/langs/es_dlg.js            js/tiny_mce/plugins/fullpage/langs/es_dlg.js
+js/tiny_mce/plugins/media/langs/es_dlg.js               js/tiny_mce/plugins/media/langs/es_dlg.js
+js/tiny_mce/plugins/paste/langs/es_dlg.js               js/tiny_mce/plugins/paste/langs/es_dlg.js
+js/tiny_mce/plugins/searchreplace/langs/es_dlg.js       js/tiny_mce/plugins/searchreplace/langs/es_dlg.js
+js/tiny_mce/plugins/style/langs/es_dlg.js               js/tiny_mce/plugins/style/langs/es_dlg.js
+js/tiny_mce/plugins/table/langs/es_dlg.js               js/tiny_mce/plugins/table/langs/es_dlg.js
+js/tiny_mce/plugins/template/langs/es_dlg.js            js/tiny_mce/plugins/template/langs/es_dlg.js
+js/tiny_mce/plugins/xhtmlxtras/langs/es_dlg.js          js/tiny_mce/plugins/xhtmlxtras/langs/es_dlg.js
+js/tiny_mce/themes/advanced/langs/es.js                 js/tiny_mce/themes/advanced/langs/es.js
+js/tiny_mce/themes/advanced/langs/es_dlg.js             js/tiny_mce/themes/advanced/langs/es_dlg.js
+js/tiny_mce/themes/simple/langs/es.js                   js/tiny_mce/themes/simple/langs/es.js
 
 
 #LocalePack Translation

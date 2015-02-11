@@ -1,0 +1,1 @@
+tinyMCE.addI18n('es.paste_dlg',{"word_title":"Utilice Ctrl+V en el teclado para pegar el texto en la ventana.","text_linebreaks":"Mantener saltos de l\u00ednea","text_title":"Utilice Ctrl+V en el teclado para pegar el texto en la ventana."});
