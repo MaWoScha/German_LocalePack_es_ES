@@ -1,0 +1,40 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php echo $this->template('install/header.phtml') ?>
+<div class="page-head">
+<h3 style="color:red">Error: Por favor, compruebe los permisos suficientes archivos de escritura</h3>
+</div>
+
+<p>Su carpeta de Magento no tiene suficientes permisos de escritura, que el descargador basado en la web requiere.</p>
+<p>Si desea continuar la descarga de paquetes de Magento en línea, por favor, defina todas las carpetas de Magento para tener permiso de escritura para el usuario del servidor web (por ejemplo: apache) y pulse el botón "Actualizar" para volver a intentarlo.</p>
+
+<button class="form-button" type="button" onclick="location.reload()"><span>Actualizar</span></button>
+<br/><br/><br/>
+<p>Para obtener más información acerca de cómo establecer permisos de escritura, por favor visite el sitio de <a href="http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide" target="Install_Help">la comunidad de Magento</a> para más detalles.</p>
+<p>Alternativamente, si usted es un desarrollador y familiarizado con SVN, puedes seguir <a href="http://www.magentocommerce.com/svn" target="Install_Help">estas instrucciones</a> para revisar la última rama de Magento.</p>
+<?php echo $this->template('install/footer.phtml') ?>
+
