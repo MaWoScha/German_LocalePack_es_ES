@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackEs>
-            <version>0.3.0</version>
+            <version>0.4.0</version>
             <locale>es_ES</locale>
             <title>Spanish (Spain) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_de_ES</link_git>
@@ -45,6 +45,16 @@
                 </observers>
             </adminhtml_controller_action_predispatch_start>
         </events>
+        <resources>
+            <localepackes_setup>
+                <setup>
+                    <module>German_LocalePackEs</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </localepackes_setup>
+        </resources>
     </global>
 	
     <default>
