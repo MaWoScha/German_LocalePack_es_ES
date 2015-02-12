@@ -32,15 +32,19 @@ js/tiny_mce/themes/simple/langs/es.js                   js/tiny_mce/themes/simpl
 
 
 #LocalePack Translation
-app/locale/es_ES/German_LocaleFa.csv app/locale/es_ES/German_LocaleFa.csv
-app/locale/de_DE/German_LocaleFa.csv app/locale/de_DE/German_LocaleFa.csv
-app/locale/en_US/German_LocaleFa.csv app/locale/en_US/German_LocaleFa.csv
-app/locale/fr_FR/German_LocaleFa.csv app/locale/fr_FR/German_LocaleFa.csv
-app/locale/pt_PT/German_LocaleFa.csv app/locale/pt_PT/German_LocaleFa.csv
+app/locale/es_ES/German_LocaleEs.csv app/locale/es_ES/German_LocaleEs.csv
+app/locale/de_DE/German_LocaleEs.csv app/locale/de_DE/German_LocaleEs.csv
+app/locale/en_US/German_LocaleEs.csv app/locale/en_US/German_LocaleEs.csv
+app/locale/fr_FR/German_LocaleEs.csv app/locale/fr_FR/German_LocaleEs.csv
+app/locale/pt_PT/German_LocaleEs.csv app/locale/pt_PT/German_LocaleEs.csv
 
 #Adminhtml und Default Theme
 app/design/adminhtml/default/default/locale/es_ES/translate.csv     app/design/adminhtml/default/default/locale/es_ES/translate.csv
+app/design/frontend/default/blank/locale/es_ES/translate.csv        app/design/frontend/default/blank/locale/es_ES/translate.csv
 app/design/frontend/default/default/locale/es_ES/translate.csv      app/design/frontend/default/default/locale/es_ES/translate.csv
+app/design/frontend/default/iphone/locale/es_ES/translate.csv       app/design/frontend/default/iphone/locale/es_ES/translate.csv
+app/design/frontend/default/modern/locale/es_ES/translate.csv       app/design/frontend/default/modern/locale/es_ES/translate.csv
+app/design/frontend/rwd/default/locale/es_ES/translate.csv          app/design/frontend/rwd/default/locale/es_ES/translate.csv
 
 #CoreTranslation
 app/locale/es_ES/Mage_Adminhtml.csv app/locale/es_ES/Mage_Adminhtml.csv
