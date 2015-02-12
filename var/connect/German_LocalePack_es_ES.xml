@@ -4,7 +4,6 @@
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
-      <version_ids>1</version_ids>
    </version_ids>
    <summary>German Community Modules - Spanish (Spain) Language Pack</summary>
    <description>Paquete de idioma español para Magento Commerce
@@ -14,7 +13,7 @@ Spanish language pack for Magento Commerce
 Spanisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.4.0</version>
+   <version>0.5.0</version>
    <stability>stable</stability>
    <notes>La traducción aún no está completa, y se actualiza constantemente
 

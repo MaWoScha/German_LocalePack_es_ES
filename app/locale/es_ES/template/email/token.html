@@ -4,6 +4,16 @@
 "var $applicationName":"Application name",
 "var $status":"Token new status"}
 @-->
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
 
-Hola, {{htmlescape var=$userName}}<br /><br />
-Su autorización a <b>{{htmlescape var=$applicationName}}</b> ha sido modificada a <b>{{htmlescape var=$status}}</b> por el equipo administrativo.<br /><br />
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td class="action-content">
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$userName}}</h1>
+            <p>Su autorización a <b>{{htmlescape var=$applicationName}}</b> ha sido modificada a <b>{{htmlescape var=$status}}</b> por el equipo administrativo.</p>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer"}}

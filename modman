@@ -132,6 +132,11 @@ app/locale/es_ES/template/email/sitemap_generate_warning.html app/locale/es_ES/t
 app/locale/es_ES/template/email/token.html app/locale/es_ES/template/email/token.html
 app/locale/es_ES/template/email/wishlist_share.html app/locale/es_ES/template/email/wishlist_share.html
 
+#Email subtemplates
+app/locale/de_DE/template/email/html/call_us.html app/locale/es_ES/template/email/html/call_us.html
+app/locale/de_DE/template/email/html/footer.html app/locale/es_ES/template/email/html/footer.html
+app/locale/de_DE/template/email/html/header.html app/locale/es_ES/template/email/html/header.html
+
 #Email Sales Templates
 app/locale/es_ES/template/email/sales/creditmemo_new_guest.html app/locale/es_ES/template/email/sales/creditmemo_new_guest.html
 app/locale/es_ES/template/email/sales/creditmemo_new.html app/locale/es_ES/template/email/sales/creditmemo_new.html
