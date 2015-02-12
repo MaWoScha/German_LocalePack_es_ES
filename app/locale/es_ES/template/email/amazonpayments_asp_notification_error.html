@@ -1,7 +1,14 @@
-<!--@subject Notificación de un error de Amazonpayments ASP @-->
+<!--@subject Bitte das Benutzerkonto für {{var customer.name}} bestätigen! @-->
 <!--@vars
 {"var request":"Amazon ASP Request",
 "var error":"Amazon ASP Error"}
+@-->
+
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+
+<!--@subject Amazonpayments ASP notification error @-->
+<!--@vars
 @-->
 <div>
     <div><b>__('Amazon Simple Pay notification message')__</b></div>
@@ -10,3 +17,5 @@
     <div>__('Error')__:</div>
     <div style="border:1px solid #000;">{{var error}}</div>
 </div>
+
+{{template config_path="design/email/footer"}}
