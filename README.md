@@ -55,18 +55,18 @@ This is a derived work of [German LocalePack de_DE](https://github.com/MaWoScha/
 refactured and internationalized from MaWoScha.
 
 This extension is tested with Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 and 1.9.1. <br />
-The language pack is suitable for Magento 1.6.x until 1.9.1.x
+The language pack is suitable for Magento 1.6.x until 1.9.2.x
 
 
 Dies ist eine abgeleitete Arbeit von [German LocalePack de_DE](https://github.com/MaWoScha/German_LocalePack_de_DE) von [MaWoScha](https://github.com/MaWoScha/),<br />
 überarbeitet und internationalisiert von MaWoScha.
 
 Diese Erweiterung ist mit Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 und 1.9.1 getestet. <br />
-Das Sprachpaket ist für Magento 1.6.x bis 1.9.1.x
+Das Sprachpaket ist für Magento 1.6.x bis 1.9.2.x
 
 
 Se trata de una obra derivada de [German LocalePack de_DE](https://github.com/MaWoScha/German_LocalePack_de_DE) de [MaWoScha](https://github.com/MaWoScha/),<br />
 revisado e internacionalizado de MaWoScha.
 
 Esta extensión se prueba con Magento 1.6.2, 1.7.0, 1.8.1, 1.9.0 y 1.9.1. <br />
-El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.1.x
+El paquete de idioma es adecuado para Magento 1.6.x hasta 1.9.2.x
