@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackEs>
-            <version>0.6.5</version>
+            <version>0.6.7</version>
             <locale>es_ES</locale>
             <title>Spanish (Spain) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_de_ES</link_git>

@@ -13,7 +13,7 @@ Spanish language pack for Magento Commerce
 Spanisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.5.0</version>
+   <version>0.6.6</version>
    <stability>stable</stability>
    <notes>La traducción aún no está completa, y se actualiza constantemente
 
@@ -69,6 +69,10 @@ Die Übersetzung ist noch nicht vollständig und wird laufend ergänzt</notes>
          <target>magedesign</target>
          <target>magedesign</target>
          <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
          <target>mage</target>
@@ -90,6 +94,8 @@ Die Übersetzung ist noch nicht vollständig und wird laufend ergänzt</notes>
          <target>mage</target>
          <target>mage</target>
          <target>mage</target>
+         <target>mage</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -165,7 +171,11 @@ Die Übersetzung ist noch nicht vollständig und wird laufend ergänzt</notes>
          <path/>
          <path>adminhtml/default/default/layout/localepackes.xml</path>
          <path>adminhtml/default/default/locale/es_ES/translate.csv</path>
+         <path>frontend/default/blank/locale/es_ES/translate.csv</path>
          <path>frontend/default/default/locale/es_ES/translate.csv</path>
+         <path>frontend/default/iphone/locale/es_ES/translate.csv</path>
+         <path>frontend/default/modern/locale/es_ES/translate.csv</path>
+         <path>frontend/rwd/default/locale/es_ES/translate.csv</path>
          <path>German/LocalePackEs</path>
          <path>modules/German_LocalePackEs.xml</path>
          <path>downloader/template_es_1.5</path>
@@ -175,6 +185,7 @@ Die Übersetzung ist noch nicht vollständig und wird laufend ergänzt</notes>
          <path>js/tiny_mce/plugins/advhr/langs/es_dlg.js</path>
          <path>js/tiny_mce/plugins/advimage/langs/es_dlg.js</path>
          <path>js/tiny_mce/plugins/advlink/langs/es_dlg.js</path>
+         <path>js/tiny_mce/plugins/autosave/langs/es.js</path>
          <path>js/tiny_mce/plugins/emotions/langs/es_dlg.js</path>
          <path>js/tiny_mce/plugins/fullpage/langs/es_dlg.js</path>
          <path>js/tiny_mce/plugins/media/langs/es_dlg.js</path>
@@ -204,6 +215,7 @@ Die Übersetzung ist noch nicht vollständig und wird laufend ergänzt</notes>
          <path>es_ES/Mage_Checkout.csv</path>
          <path>es_ES/Mage_Cms.csv</path>
          <path>es_ES/Mage_Compiler.csv</path>
+         <path>es_ES/Mage_ConfigurableSwatches.csv</path>
          <path>es_ES/Mage_Connect.csv</path>
          <path>es_ES/Mage_Contacts.csv</path>
          <path>es_ES/Mage_Core.csv</path>
@@ -263,10 +275,16 @@ Die Übersetzung ist noch nicht vollständig und wird laufend ergänzt</notes>
          <type>file</type>
          <type>file</type>
          <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -451,9 +469,21 @@ Die Übersetzung ist noch nicht vollständig und wird laufend ergänzt</notes>
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
