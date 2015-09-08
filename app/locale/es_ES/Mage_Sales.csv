@@ -689,7 +689,7 @@
 "Shipment #%1$s | %3$s (%2$s)","Envío nº %1$s | %3$s (%2$s)"
 "Shipment #%s","Envío nº %s"
 "Shipment #%s comment added","Comentario añadido al envio nº %s"
-"Shipment #%s created","Envío nº %s"
+"Shipment #%s created","Envío nº %s creado"
 "Shipment Comment Email Sender","Comentario del envío - Remitente de correo electrónico"
 "Shipment Comment Email Template","Comentario del envío - Plantilla de correo electrónico"
 "Shipment Comment Email Template for Guest","Comentario del envío - Plantilla de correo electrónico para visitante"

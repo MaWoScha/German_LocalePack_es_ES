@@ -540,7 +540,7 @@
 "Solo","Solo"
 "Some PayPal solutions conflict.","Algunos conflictos de soluciones PayPal"
 "Sorry, no quotes are available for this order at this time.","Lamentamos informarle que en este momento no hay cotizaciones disponibles para este pedido."
-"Sort Order","Orden de selección"
+"Sort Order","Secuencia de clasificación"
 "Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Especifica cuál es el período de autorización de la cuenta de PayPal del comerciante. Tiene que ser igual a la configuración de PayPal."
 "Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Especifica cuál es el período de validez del pedido de la cuenta de PayPal del comerciante. Tiene que ser igual a la configuración de PayPal."
 "State/Province","Estado/Provincia"

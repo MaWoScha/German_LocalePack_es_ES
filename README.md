@@ -2,9 +2,13 @@
 (Magento Community Modules - Spanish (Spain) Language Pack)<br />
 (Módulos de Magento Community - Paquete de idioma española)
 
-Dieses Sprachpaket wird von MaWoScha verwaltet.<br />
+Este pacote de idioma é gerido por MaWoScha.<br />
+Este paquete de idioma está gestionado por MaWoScha.<br />
 This language package is managed by MaWoScha.<br />
-Este paquete de idioma está gestionado por MaWoScha.
+Dieses Sprachpaket wird von MaWoScha verwaltet.
+
+
+# Git-Verwaltung
 
 Dieses Git-Repository kann genutzt werden für:
 

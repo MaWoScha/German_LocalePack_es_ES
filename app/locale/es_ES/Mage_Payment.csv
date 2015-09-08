@@ -104,7 +104,7 @@
 "Severe validation removes chargeback liability on merchant.","La validación estricta exime al comerciante de responsabilidad en caso de devoluciones de cargos"
 "Shipping Amount","Importe del Envío"
 "Short description of the recurring payment. By default equals to the product name.","Descripción corta del pago repetitivo. De forma predeterminada equivale al nombre del producto."
-"Sort Order","Ordenar Pedido"
+"Sort Order","Secuencia de clasificación"
 "Start Date","Fecha de Inicio"
 "Start date has invalid format.","La fecha de inicio tiene un formato no válido."
 "Start date is undefined.","La fecha de inicio no está definida."
