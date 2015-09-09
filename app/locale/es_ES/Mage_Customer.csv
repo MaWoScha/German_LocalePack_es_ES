@@ -228,7 +228,7 @@
 "Manage Addresses","Gestionar direcciones"
 "Manage Customers","Gestionar clientes"
 "Maximum length must be less then %s symbols","Longitud máxima debe ser menor de %s símbolos."
-"Middle Name/Initial","Segundo nombre"
+"Middle Name","Segundo nombre"
 "Missing email, skipping the record, line: %s","Correo electrónico perdido, se omite el registro en línea %s."
 "Missing email, skipping the record.","Correo electrónico perdido, se omite el registro."
 "Missing first name, skipping the record, line: %s","Nombre perdido, se omite el registro."
