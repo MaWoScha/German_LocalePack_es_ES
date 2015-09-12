@@ -73,7 +73,7 @@
 "Input Validation for Store Owner","Validación de entrada para el dueño de la tienda"
 "Integer Number","Número entero"
 "Invalid EAV attribute.","Atributo de EAV no válido."
-"Invalid alias, already exists in joint attributes","Alias inválido, ya existe en los atributos unidos"
+"Invalid alias, already exists in joint attributes","Alias inválido, ya existe en los atributos unidos."
 "Invalid attribute name: %s","Nombre de atributo no válido: %s"
 "Invalid attribute requested: %s","Se solicitó un atributo no válido: %s"
 "Invalid attribute type","Tipo de atributo no válido"
