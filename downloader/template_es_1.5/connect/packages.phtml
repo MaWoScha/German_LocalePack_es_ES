@@ -43,12 +43,12 @@
  function connectPrepare(form) {
     new Ajax.Request(form.action, {
       method:'post',
-      parameters: {install_package_id: form.install_package_id.value},
+      parameters: {install_package_id: form.install_package_id.value, form_key: form.form_key.value},
       onCreate: function() {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
                 ' <p class="loader">'+
-                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Cargando ..."/><br/>Por favor, espere …'+
+                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Cargando ..."/><br/>Por favor, espere ...'+
                 ' </p>'+
                 '</div>'
           );
@@ -80,6 +80,7 @@
 //-->
 </script>
 <form action="<?php echo $this->url('connectPreparePackagePost')?>" method="post" onsubmit="return connectPrepare(this)">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <ul class="bare-list">
         <li>
             <span class="step-count">1</span> &nbsp; Buscar módulos en <a href="http://connect.magentocommerce.com/" target="Magento_Connect">Magento Connect</a>.
@@ -134,6 +135,7 @@
 <?php foreach ($packages as $channel=>$pkgs): ?>
 
 <form id="connect_packages_<?php echo $i ?>" class="connect-packages" action="<?php echo $this->url('connectPackagesPost')?>" method="post" target="connect_iframe">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <div class="no-display">
         <input type="hidden" id="ignore_local_modification" name="ignore_local_modification" value=""/>
         <input type="hidden" name="form_id" value="connect_packages_<?php echo $i ?>"/>
@@ -198,7 +200,7 @@
     </div>
 </form>
 <script type="text/javascript">
-$$('#connect_packages_'+<?php echo $i?>+' select').each(function(el){el.value=''});
+$$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.value=''});
 </script>
 <?php if (++$i != $cnt): ?><div class="divider"></div><?php endif ?>
 <br/>
@@ -209,14 +211,14 @@ $$('#connect_packages_'+<?php echo $i?>+' select').each(function(el){el.value=''
 
 <a name="connect_iframe_result"></a>
 <div id="connect_iframe_success" style="display:none">
-    <?php $this->set('messages', array('success'=>array('El proceso se ha completado. Preste atención a la cuestión en el cuadro negro para recibir informaci�n importante sobre la operación.'))) ?>
+    <?php $this->set('messages', array('success'=>array('El proceso se ha completado. Preste atención a la cuestión en el cuadro negro para recibir información importante sobre la operación.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Actualizar</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualizar</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
     <?php $this->set('messages', array('error'=>array('Observa los mensajes de error en la ventana de negro y actualiza la página para ver los cambios.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Actualizar</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualizar</button>
 </div>
 
 <?php echo $this->template('footer.phtml') ?>

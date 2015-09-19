@@ -90,7 +90,7 @@ function connectPrepare(form) {
           $('prepare_package_result').update(
                 '<div class="loading-mask" id="loading_mask_loader">'+
                 ' <p class="loader">'+
-                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Cargando ..."/><br/>Por favor, espere ‚Ä¶'+
+                ' <img src="<?php echo $this->baseUrl()?>/skin/images/ajax-loader-tr.gif" alt="Cargando ..."/><br/>Por favor, espere ...'+
                 ' </p>'+
                 '</div>'
           );
@@ -191,8 +191,8 @@ function connectPrepare(form) {
         <?php if (!empty($_GET['updates'])): ?>
             <col width="190" />
             <col width="60" />
-            <col width="70" />
-            <col width="150"  />
+            <col width="60" />
+            <col width="160"  />
             <col width="170" />
         <?php else: ?>
             <col width="200" />

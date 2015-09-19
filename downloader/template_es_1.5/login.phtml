@@ -30,6 +30,7 @@
 <?php endif ?>
 <div style="width:300px; padding:20px; margin:90px auto !important; background:#f6f6f6;">
 <form method="post" action="#">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
     <h2 class="page-head">Página de acceso</h2>
     <p><small>Por favor, introduzca sus datos de registro de Magento.<br/>Sólo para administradores con derechos de acceso para<br/>iniciar sesión.</small></p>
     <table class="form-list">
