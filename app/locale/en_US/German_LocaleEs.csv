@@ -17,7 +17,7 @@
 "Spanish language package es_ES - Community Edition (CE)","Spanish language package es_ES - Community Edition (CE)"
 "Spanish language package es_MX - Community Edition (CE)","Spanish language package es_MX - Community Edition (CE)"
 "Spanish language package es_ZZ - Community Edition (CE)","Spanish language package es_ZZ - Community Edition (CE)"
-"The <span style='color:red'>%s</span> language pack in version <span style='color:red'>%s</span> has been successfully installed.","The <span style='color:red'>%s</span> language pack in version <span style='color:red'>%s</span> has been successfully installed."
+"The %s language pack in version %s has been successfully installed.","The <span style='color:red'>%s</span> language pack in version <span style='color:red'>%s</span> has been successfully installed."
 "On the <a href='%s'>Magento Connect page of the Spanish language pack</a>, you can find more information on the latest versions.","On the <a href='%s'>Magento Connect page of the Spanish language pack</a>, you can find more information on the latest versions."
 "For those interested there is a <a href='%s'>GitHub repository</a>. It is provided for the following purposes:","For those interested there is a <a href='%s'>GitHub repository</a>. It is provided for the following purposes:"
 "Development of current language pack versions","Development of current language pack versions"

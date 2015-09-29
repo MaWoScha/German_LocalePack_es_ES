@@ -17,7 +17,7 @@ class German_LocalePackEs_Block_System_Config_Form_Fieldset_Instructions
 
         $html  = $this->_getHeaderHtml($element);
         $html .= "<p style='font-weight:bold;'>";
-        $html .= $helper->__("The <span style='color:red'>%s</span> language pack in version <span style='color:red'>%s</span> has been successfully installed.",
+        $html .= $helper->__("The %s language pack in version %s has been successfully installed.",
         		(string)Mage::app()->getConfig()->getNode($nodepath.'/locale'),
         		(string)Mage::app()->getConfig()->getNode($nodepath.'/version') );
         $html .= "</p>";

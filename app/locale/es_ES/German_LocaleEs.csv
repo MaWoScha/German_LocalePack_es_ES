@@ -17,7 +17,7 @@
 "Spanish language package es_ES - Community Edition (CE)","Paquete de idioma español es_ES - Community Edition (CE)"
 "Spanish language package es_MX - Community Edition (CE)","Paquete de idioma español es_MX - Community Edition (CE)"
 "Spanish language package es_ZZ - Community Edition (CE)","Paquete de idioma español es_ZZ - Community Edition (CE)"
-"The <span style='color:red'>%s</span> language pack in version <span style='color:red'>%s</span> has been successfully installed.","El paquete de idioma <span style='color:red'>%s</span> en la versión <span style='color:red'>%s</span> se ha instalado correctamente."
+"The %s language pack in version %s has been successfully installed.","El paquete de idioma <span style='color:red'>%s</span> en la versión <span style='color:red'>%s</span> se ha instalado correctamente."
 "On the <a href='%s'>Magento Connect page of the Spanish language pack</a>, you can find more information on the latest versions.","En la <a href='%s'>Página principal de extensión del paquete de idioma Español</a> usted puede encontrar más información sobre las últimas versiones."
 "For those interested there is a <a href='%s'>GitHub repository</a>. It is provided for the following purposes:","Para los interesados hay un <a href='%s'>repositorio de GitHub</a>. Se suministra con los siguientes fines:"
 "Development of current language pack versions","Desarrollo de las versiones lingüísticas de corriente de carga"
