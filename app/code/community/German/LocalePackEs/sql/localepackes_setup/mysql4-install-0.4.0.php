@@ -14,7 +14,7 @@ $installer->startSetup();
 $blockContent = <<<EOD
 Si tiene alguna duda respecto a su pedido, no deje de ponerse en contacto con nosotros
 en email <a href=\"mailto:{{var store_email}}\">{{var store_email}}</a>,
-en teléfono <a href=\"tel:{{var phone}}\">{{var store_phone}}</a>,
+en teléfono <a href=\"tel:{{var store_phone}}\">{{var store_phone}}</a>,
 a través de <a title=\"Mi Servicio en Skype\" href=\"skype:mi.tienda?chat\" target=\"_blank\">Skype-Chat</a> (Nombre de usuario: mi.tienda)
 o en Facebook en nuestra <a title=\"Mi página de fans en Facebook\" href=\"http://www.facebook.com/mi.tienda\" target=\"_blank\">Mi página de fans</a>.
 EOD;

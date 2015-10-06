@@ -33,7 +33,6 @@ class German_LocalePackEs_Block_System_Config_Form_Fieldset_Magentoconnectmanage
         $html .= "<p><strong style='font-weight: bold; color:red; margin-top:20pt;'>";
         $html .= $helper->__("Please note:")."</strong> ".$helper->__('If Magento is updated, in particular the module "Mage_Downloader", the settings of the Connect Manager will be overwritten!')."<br />";
         $html .= $helper->__('The same applies to the TinyMCE editor. Run in the case a "Reinstall" the language pack and repeat the described steps.')."</p>";
-        $html .= "</p>";
         $html .= $this->_getFooterHtml($element);
 
         return $html;
