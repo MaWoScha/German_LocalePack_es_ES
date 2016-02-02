@@ -82,8 +82,8 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</enabled>
-					</fields> 
-				</tinymce_language> 
+					</fields>
+				</tinymce_language>
 			</groups>
 		</localepackes>
 	</sections>

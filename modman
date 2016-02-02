@@ -51,6 +51,7 @@ app/design/frontend/rwd/default/locale/es_ES/translate.csv          app/design/f
 #CoreTranslation
 app/locale/es_ES/Mage_Adminhtml.csv app/locale/es_ES/Mage_Adminhtml.csv
 app/locale/es_ES/Mage_AdminNotification.csv app/locale/es_ES/Mage_AdminNotification.csv
+app/locale/es_ES/Mage_AmazonPayments.csv app/locale/es_ES/Mage_AmazonPayments.csv
 app/locale/es_ES/Mage_Api.csv app/locale/es_ES/Mage_Api.csv
 app/locale/es_ES/Mage_Api2.csv app/locale/es_ES/Mage_Api2.csv
 app/locale/es_ES/Mage_Authorizenet.csv app/locale/es_ES/Mage_Authorizenet.csv
@@ -121,7 +122,7 @@ app/locale/es_ES/template/email/account_new_confirmed.html app/locale/es_ES/temp
 app/locale/es_ES/template/email/account_new.html app/locale/es_ES/template/email/account_new.html
 app/locale/es_ES/template/email/account_password_reset_confirmation.html app/locale/es_ES/template/email/account_password_reset_confirmation.html
 app/locale/es_ES/template/email/admin_password_new.html app/locale/es_ES/template/email/admin_password_new.html
-app/locale/es_ES/template/email/admin_password_reset_confirmation.html app/locale/es_ES/template/email/admin_password_reset_confirmation.html 
+app/locale/es_ES/template/email/admin_password_reset_confirmation.html app/locale/es_ES/template/email/admin_password_reset_confirmation.html
 app/locale/es_ES/template/email/amazonpayments_asp_notification_error.html app/locale/es_ES/template/email/amazonpayments_asp_notification_error.html
 app/locale/es_ES/template/email/contact_form.html app/locale/es_ES/template/email/contact_form.html
 app/locale/es_ES/template/email/currency_update_warning.html app/locale/es_ES/template/email/currency_update_warning.html
@@ -141,9 +142,9 @@ app/locale/es_ES/template/email/token.html app/locale/es_ES/template/email/token
 app/locale/es_ES/template/email/wishlist_share.html app/locale/es_ES/template/email/wishlist_share.html
 
 #Email subtemplates
-app/locale/es_ES/template/email/html/call_us.html app/locale/es_ES/template/email/html/call_us.html
 app/locale/es_ES/template/email/html/footer.html app/locale/es_ES/template/email/html/footer.html
 app/locale/es_ES/template/email/html/header.html app/locale/es_ES/template/email/html/header.html
+app/locale/es_ES/template/email/html/support.html app/locale/es_ES/template/email/html/support.html
 
 #Email Sales Templates
 app/locale/es_ES/template/email/sales/creditmemo_new_guest.html app/locale/es_ES/template/email/sales/creditmemo_new_guest.html

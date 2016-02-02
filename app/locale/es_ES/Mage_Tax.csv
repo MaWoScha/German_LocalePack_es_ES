@@ -1,4 +1,4 @@
-"'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and not longer than %d.","'*' - corresponde a cualquiera; 'xyz*' - corresponde a cualquiera que comience por 'xyz' y no sea más larga de % d"
+"'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and not longer than %d.","'*' - corresponde a cualquiera; 'xyz*' - corresponde a cualquiera que comience por 'xyz' y no sea más larga de %d"
 "-- Please Select --","-- Por favor, seleccione --"
 "Add New Class","Añadir nueva clase fiscal"
 "Add New Tax Rate","Añadir nueva tasa impositiva"

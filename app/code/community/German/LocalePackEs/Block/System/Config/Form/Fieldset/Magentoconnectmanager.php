@@ -18,9 +18,9 @@ class German_LocalePackEs_Block_System_Config_Form_Fieldset_Magentoconnectmanage
         $html .= "<p style='font-weight:bold;'>".$helper->__("To install the translation for the Magento Connect Manager, proceed as follows:")."</p>";
         $html .= "<ol style='list-style-position: outside; list-style-type: decimal; margin-left:18px;'>";
         $html .= "<li>".$helper->__('In your Magento root directory in the subfolder "%s" rename the folder "%s" into "%s".',
-        		"/downloader",
-        		"template",
-        		"template_original" );
+                "/downloader",
+                "template",
+                "template_original" );
         $html .= "</li>";
         $html .= "<li>".$helper->__("The directory");
         $html .= "<ul style='list-style-position: outside; list-style-type: disc; margin-left:18px;'>";
