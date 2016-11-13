@@ -87,7 +87,7 @@ app/locale/es_ES/Mage_Install.csv app/locale/es_ES/Mage_Install.csv
 app/locale/es_ES/Mage_Log.csv app/locale/es_ES/Mage_Log.csv
 app/locale/es_ES/Mage_Media.csv app/locale/es_ES/Mage_Media.csv
 app/locale/es_ES/Mage_Newsletter.csv app/locale/es_ES/Mage_Newsletter.csv
-app/locale/es_ES/Mage_OAuth.csv app/locale/es_ES/Mage_OAuth.csv
+app/locale/es_ES/Mage_Oauth.csv app/locale/es_ES/Mage_Oauth.csv
 app/locale/es_ES/Mage_Page.csv app/locale/es_ES/Mage_Page.csv
 app/locale/es_ES/Mage_PageCache.csv app/locale/es_ES/Mage_PageCache.csv
 app/locale/es_ES/Mage_Paygate.csv app/locale/es_ES/Mage_Paygate.csv
@@ -132,6 +132,7 @@ app/locale/es_ES/template/email/newsletter_subscr_confirm.html app/locale/es_ES/
 app/locale/es_ES/template/email/newsletter_subscr_success.html app/locale/es_ES/template/email/newsletter_subscr_success.html
 app/locale/es_ES/template/email/newsletter_unsub_success.html app/locale/es_ES/template/email/newsletter_unsub_success.html
 app/locale/es_ES/template/email/password_new.html app/locale/es_ES/template/email/password_new.html
+app/locale/es_ES/template/email/password_or_email_changed.html app/locale/es_ES/template/password_or_email_changed.html
 app/locale/es_ES/template/email/payment_failed.html app/locale/es_ES/template/email/payment_failed.html
 app/locale/es_ES/template/email/product_alert_cron_error.html app/locale/es_ES/template/email/product_alert_cron_error.html
 app/locale/es_ES/template/email/product_price_alert.html app/locale/es_ES/template/email/product_price_alert.html

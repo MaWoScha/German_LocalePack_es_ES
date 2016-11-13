@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackEs>
-            <version>0.8.2</version>
+            <version>0.8.3</version>
             <locale>es_ES</locale>
             <title>Spanish (Spain) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_de_ES</link_git>
@@ -55,6 +55,15 @@
                 </connection>
             </localepackes_setup>
         </resources>
+        <template>
+            <email>
+                <design_email_support translate="label" module="core">
+                    <label>Email - Support</label>
+                    <file>html/support.html</file>
+                    <type>text</type>
+                </design_email_support>
+            </email>
+        </template>
     </global>
 	
     <default>

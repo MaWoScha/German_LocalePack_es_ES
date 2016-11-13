@@ -107,6 +107,7 @@
       ["./app/locale/es_ES/template/email/newsletter_subscr_success.html", "./app/locale/es_ES/template/email/newsletter_subscr_success.html"],
       ["./app/locale/es_ES/template/email/newsletter_unsub_success.html", "./app/locale/es_ES/template/email/newsletter_unsub_success.html"],
       ["./app/locale/es_ES/template/email/password_new.html", "./app/locale/es_ES/template/email/password_new.html"],
+      ["./app/locale/es_ES/template/email/password_or_email_changed.html", "./app/locale/es_ES/template/password_or_email_changed.html"],
       ["./app/locale/es_ES/template/email/payment_failed.html", "./app/locale/es_ES/template/email/payment_failed.html"],
       ["./app/locale/es_ES/template/email/product_alert_cron_error.html", "./app/locale/es_ES/template/email/product_alert_cron_error.html"],
       ["./app/locale/es_ES/template/email/product_price_alert.html", "./app/locale/es_ES/template/email/product_price_alert.html"],
