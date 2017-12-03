@@ -3,6 +3,9 @@
 "(Excl. Tax)","(Sin impuestos)"
 "(Incl. Tax)","(Con impuestos)"
 "* Required Fields","* Por favor, complete esta información"
+"<strong style=""color:red"">Important!</strong> Enabling this option means
+                            that your custom templates used in checkout process contain form_key output.
+                            Otherwise checkout may not work.","<strong style=""color:red"">¡Importante!</strong> Al habilitar esta opción, significa que sus plantillas personalizadas que se utilizan en el proceso de finalización de la compra contienen la salida form_key. De lo contrario, finalizar la compra puede que no funcionar."
 "Add New Address","Añadir nueva dirección"
 "Add New Condition","Añadir nueva condición"
 "Add coupon code for shopping cart","Agregar código promocional a carrito de compras"
@@ -121,6 +124,7 @@
 "Email Address","Dirección de correo electrónico"
 "Empty Cart","Vaciar el carrito de compras"
 "Empty Shopping Cart Content Before","Vaciar antes el contenido del carrito de compras"
+"Enable Form Key Validation On Checkout","Habilitar la validación de la clave de formulario al finalizar la compra"
 "Enable Onepage Checkout","Habilitar página de pago única"
 "Enable Terms and Conditions","Habilitar términos y condiciones"
 "Enabled","Habilitado"

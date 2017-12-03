@@ -1,6 +1,8 @@
 "<a href=""%s"" target=""_blank"">Link</a>","<a href=""%s"" target=""_blank"">Link</a>"
 "Actions XML is not valid.","Las acciones XML no son válidas."
 "An error occurred while opening file: ""%s"".","Se ha producido un error mientras se abría el archivo: ""%s""."
+"Backend name ""Static"" not supported.","Nombre del programa de fondo ""Static"" no compatible."
+"Backend name Static"" not supported.""","Nombre del programa de fondo ""Static"" no compatible."
 "Could not load file: ""%s"".","No se ha podido cargar el archivo: ""%s""."
 "Could not save file: %s.","No se ha podido guardar el archivo: ""%s""."
 "Declared adapter %s was not found.","El adaptador declarado %s no se ha encontrado."
