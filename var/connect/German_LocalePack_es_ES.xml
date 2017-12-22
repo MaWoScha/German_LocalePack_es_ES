@@ -13,7 +13,7 @@ Spanish language pack for Magento Commerce
 Spanisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.8.4</version>
+   <version>0.8.5</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.3.x</notes>
    <authors>
@@ -91,6 +91,7 @@ Spanisches Sprachpaket für Magento Commerce</description>
          <target>mage</target>
          <target>mage</target>
          <target>mage</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -268,6 +269,7 @@ Spanisches Sprachpaket für Magento Commerce</description>
          <path>de_DE/German_LocaleEs.csv</path>
          <path>en_US/German_LocaleEs.csv</path>
          <path>fr_FR/German_LocaleEs.csv</path>
+         <path>it_IT/German_LocaleEs.csv</path>
          <path>pt_PT/German_LocaleEs.csv</path>
       </path>
       <type>
@@ -369,6 +371,7 @@ Spanisches Sprachpaket für Magento Commerce</description>
          <type>file</type>
          <type>file</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -479,9 +482,11 @@ Spanisches Sprachpaket für Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
