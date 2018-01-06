@@ -7,7 +7,7 @@
 "Case Sensitive","Distingue mayúsculas y minúsculas"
 "Displaying Mode","Modo de visualización"
 "Enable CAPTCHA in Admin","Habilitar el CAPTCHA en Administrador"
-"Enable CAPTCHA on Frontend","Habilitar el CAPTCHA en el Interfaz de Usuario"
+"Enable CAPTCHA on Frontend","Habilitar el CAPTCHA en las tiendas"
 "Font","Fuente"
 "Forms","Formularios"
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Si se especifica 0, el CAPTCHA siempre estará disponible en el formulario de inicio de sesión."
