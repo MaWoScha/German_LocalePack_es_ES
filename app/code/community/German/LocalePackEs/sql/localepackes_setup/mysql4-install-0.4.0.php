@@ -19,7 +19,7 @@ a través de <a title=\"Mi Servicio en Skype\" href=\"skype:mi.tienda?chat\" tar
 o en Facebook en nuestra <a title=\"Mi página de fans en Facebook\" href=\"http://www.facebook.com/mi.tienda\" target=\"_blank\">Mi página de fans</a>.
 EOD;
 
-$storeId = 2;
+$storeId = 4;
 
 $staticBlocks = array(
     array(
