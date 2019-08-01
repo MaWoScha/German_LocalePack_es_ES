@@ -5,7 +5,8 @@
   "description":"Spanish (Spain) Community Translation",
   "authors":[
     {
-      "name":"MaWoScha"
+      "name":"MaWoScha",
+      "email":"manfredwormschaefer@gmail.com"
     }
   ],
   "require": {
@@ -145,7 +146,7 @@
       ["js/tiny_mce/plugins/advlink/langs/es_dlg.js", "js/tiny_mce/plugins/advlink/langs/es_dlg.js"],
       ["js/tiny_mce/plugins/autosave/langs/es.js", "js/tiny_mce/plugins/autosave/langs/es.js"],
       ["js/tiny_mce/plugins/emotions/langs/es_dlg.js", "js/tiny_mce/plugins/emotions/langs/es_dlg.js"],
-      ["js/tiny_mce/plugins/fullpage/langs/es_dlg.js", "./s/tiny_mce/plugins/fullpage/langs/es_dlg.js"],
+      ["js/tiny_mce/plugins/fullpage/langs/es_dlg.js", "js/tiny_mce/plugins/fullpage/langs/es_dlg.js"],
       ["js/tiny_mce/plugins/media/langs/es_dlg.js", "js/tiny_mce/plugins/media/langs/es_dlg.js"],
       ["js/tiny_mce/plugins/paste/langs/es_dlg.js", "js/tiny_mce/plugins/paste/langs/es_dlg.js"],
       ["js/tiny_mce/plugins/searchreplace/langs/es_dlg.js", "js/tiny_mce/plugins/searchreplace/langs/es_dlg.js"],
