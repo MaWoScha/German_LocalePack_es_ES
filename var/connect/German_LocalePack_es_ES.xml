@@ -13,7 +13,7 @@ Spanish language pack for Magento Commerce
 Spanisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>1.1.0</version>
+   <version>1.1.1</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.4.x</notes>
    <authors>
@@ -28,7 +28,7 @@ Spanisches Sprachpaket für Magento Commerce</description>
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>
-   <depends_php_max>6.0.0</depends_php_max>
+   <depends_php_max>7.5.0</depends_php_max>
    <depends>
       <package>
          <name>

@@ -98,6 +98,7 @@
       ["app/locale/es_ES/template/email/account_new_confirmed.html", "app/locale/es_ES/template/email/account_new_confirmed.html"],
       ["app/locale/es_ES/template/email/account_new.html", "app/locale/es_ES/template/email/account_new.html"],
       ["app/locale/es_ES/template/email/account_password_reset_confirmation.html", "app/locale/es_ES/template/email/account_password_reset_confirmation.html"],
+      ["app/locale/es_ES/template/email/admin_new_user_notification.html", "app/locale/es_ES/template/email/admin_new_user_notification.html"],
       ["app/locale/es_ES/template/email/admin_password_new.html", "app/locale/es_ES/template/email/admin_password_new.html"],
       ["app/locale/es_ES/template/email/admin_password_reset_confirmation.html", "app/locale/es_ES/template/email/admin_password_reset_confirmation.html"],
       ["app/locale/es_ES/template/email/amazonpayments_asp_notification_error.html", "app/locale/es_ES/template/email/amazonpayments_asp_notification_error.html"],
